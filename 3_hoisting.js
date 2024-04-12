@@ -7,13 +7,13 @@ function getName(){
     console.log("namaste javascript")
 } 
 
-//if we access getName arrow function it gives an error
+//if we access getName arrow function it gives an error before initialization
 var getName = () => {
     console.log("namaste Javascript")
 }
 
 
-//if we access getName a function it gives an error
+//if we access getName a function it gives an error before initialization
 var getName2 = function(){
     console.log("namaste javascript");
 }
